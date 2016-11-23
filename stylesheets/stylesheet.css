@@ -396,10 +396,11 @@ input[placeholder] {
 }
 
 .tabs__content {
+    display: inline-block;
     position: absolute;
     left: 0;
-    top: 47px;
-    display: none;
+    opacity: 0;
+    top: 100px;
     padding: 0 40px 0 14px;
     width: 493px;
     min-height: 110px;
@@ -413,6 +414,9 @@ input[placeholder] {
 
 .tabs__content_active {
     display: inline-block;
+    opacity: 1;
+    transition: 0.3s ease;
+    top: 47px;
 }
 
 .address__transport {
