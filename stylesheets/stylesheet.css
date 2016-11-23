@@ -51,6 +51,7 @@
 .nav__item:hover {
     display: inline-block;
     background: #3a3838;
+    transition: 0.3s;
 }
 
 .nav:first-child {
@@ -359,10 +360,6 @@ input[placeholder] {
 
 }
 
-.tabs__name:hover {
-    cursor: pointer;
-}
-
 .tabs__list {
     margin: 0 0 180px 0;
     padding: 0;
@@ -388,6 +385,12 @@ input[placeholder] {
     border-left: 2px solid #29b77b;
     border-right: 2px solid #29b77b;
     border-top: 2px solid #29b77b;
+    transition: 0.3s;
+}
+
+.tabs__name:hover {
+    cursor: pointer;
+    background: #269e6b;
 }
 
 .tabs__item:last-child .tabs__name {
