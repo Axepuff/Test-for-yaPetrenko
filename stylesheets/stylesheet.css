@@ -234,6 +234,10 @@ input[placeholder] {
     background: #31cc8a;
 }
 
+.search__submit_btn {
+    margin-top: 3px;
+}
+
 .white-list {
     font-size: 0;
     width: 552px;
